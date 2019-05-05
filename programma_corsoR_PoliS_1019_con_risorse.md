@@ -1,6 +1,8 @@
 # Mattino – Le basi di R
 
+
 ## Introduzione all’ambiente R
+
 
 * Caratteristiche di R, vantaggi (e svantaggi) del suo utilizzo, per cosa è utile (e per cosa non è utile) utilizzarlo.
 * La modularità dell’ambiente R: il pacchetto base e i pacchetti aggiuntivi.
@@ -8,8 +10,11 @@
 install.packages()
 library()
 ```
+
 * Introduzione a RStudio: le componenti dell’ambiente di lavoro (in particolare script, console).
+
 * La creazione di un progetto in RStudio e la sua organizzazione.
+
 * Come muoversi in R Studio utilizzando l’interfaccia grafica, le principali scorciatoie da tastiera e i comandi.
 ```R
 ls()
@@ -17,11 +22,15 @@ rm()
 setwd()
 getwd()
 ```
+
 * Come utilizzare le funzioni di aiuto
 ```R
 ?
 help()
 ```
+
+#### Per approfondire
+https://www.rstudio.com/
 
 ## Le basi di R
 * La creazione di un oggetto.
