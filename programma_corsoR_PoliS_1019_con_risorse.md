@@ -5,17 +5,17 @@
 
 
 * Caratteristiche di R, vantaggi (e svantaggi) del suo utilizzo, per cosa è utile (e per cosa non è utile) utilizzarlo.
-* La modularità dell’ambiente R: il pacchetto base e i pacchetti aggiuntivi.
+* La modularità dell’ambiente R: il pacchetto base e i pacchetti aggiuntivi
 ```R
 install.packages()
 library()
 ```
 
-* Introduzione a RStudio: le componenti dell’ambiente di lavoro (in particolare script, console).
+* Introduzione a RStudio: le componenti dell’ambiente di lavoro (in particolare script, console)
 
-* La creazione di un progetto in RStudio e la sua organizzazione.
+* La creazione di un progetto in RStudio e la sua organizzazione
 
-* Come muoversi in R Studio utilizzando l’interfaccia grafica, le principali scorciatoie da tastiera e i comandi.
+* Come muoversi in R Studio utilizzando l’interfaccia grafica, le principali scorciatoie da tastiera e i comandi
 ```R
 ls()
 rm()
@@ -34,7 +34,7 @@ https://www.rstudio.com/
 
 ## Le basi di R
 
-* La creazione di un oggetto.
+* La creazione di un oggetto
 ```R
 <-
 class()
@@ -48,10 +48,11 @@ as.character()
 # (is/as).(character/numeric/logical/...)
 ```
 
-* Oggetti base: vector e matrix.
+* Oggetti base: vector e matrix
 ```R
 c()
 matrix()
+dim()
 rownames()
 colnames()
 cbind()
@@ -59,22 +60,29 @@ rbind()
 apply()
 ```
 
-* Oggetti complessi: data.frame e list.
+* Oggetti complessi: data.frame e list
 ```R
 data.frame()
 list()
 lapply()
 ```
 
-* Gli operatori logici.
-==, &, |, !.
-%in%.
-identical.
-which.
-* Estrarre il contenuto degli oggetti R: subsetting.
-$, [ e [[.
-head e tail.
-subset.
+* Gli operatori logici
+```R
+# ==, &, |, !
+%in%
+identical()
+which()
+```
+
+* Estrarre il contenuto degli oggetti R: subsetting
+```R
+# $, [, [[
+head ()
+tail ()
+subset()
+```
+
 * Le variabili categoriali in R: factors.
 factor.
 levels.
