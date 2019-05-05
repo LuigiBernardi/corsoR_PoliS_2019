@@ -39,6 +39,9 @@ https://www.rstudio.com/
 <-
 class()
 str()
+glimpse()
+length()
+names()
 attributes()
 is.character()
 as.character()
@@ -46,13 +49,23 @@ as.character()
 ```
 
 * Oggetti base: vector e matrix.
-c.
-matrix.
-cbind e rbind.
-apply.
-* Oggetti complessi: data.frame e accenno alle list.
-data.frame.
-list e lapply.
+```R
+c()
+matrix()
+rownames()
+colnames()
+cbind()
+rbind()
+apply()
+```
+
+* Oggetti complessi: data.frame e list.
+```R
+data.frame()
+list()
+lapply()
+```
+
 * Gli operatori logici.
 ==, &, |, !.
 %in%.
