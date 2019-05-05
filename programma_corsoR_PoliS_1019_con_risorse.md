@@ -33,11 +33,18 @@ help()
 https://www.rstudio.com/
 
 ## Le basi di R
+
 * La creazione di un oggetto.
-<-.
-class.
-str.
-(is/as).(character/numeric/logical/...).
+```R
+<-
+class()
+str()
+attributes()
+is.character()
+as.character()
+# (is/as).(character/numeric/logical/...)
+```
+
 * Oggetti base: vector e matrix.
 c.
 matrix.
