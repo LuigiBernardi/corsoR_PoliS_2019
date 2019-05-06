@@ -154,6 +154,16 @@ ifelse()
 
 * Il vantaggio di lavorare in un unico ambiente
 
+### Per approfondire
+
+* funzioni
+
+http://adv-r.had.co.nz/Functions.html
+
+* for loop e alternative
+
+http://adv-r.had.co.nz/Functionals.html
+
 
 # Pomeriggio – L’analisi dati con R illustrata attraverso un esempio pratico
 
