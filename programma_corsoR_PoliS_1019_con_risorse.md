@@ -5,6 +5,7 @@
 
 
 * Caratteristiche di R, vantaggi (e svantaggi) del suo utilizzo, per cosa è utile (e per cosa non è utile) utilizzarlo.
+
 * La modularità dell’ambiente R: il pacchetto base e i pacchetti aggiuntivi
 ```R
 install.packages()
@@ -35,7 +36,11 @@ https://www.r-project.org/
 
 https://www.rstudio.com/
 
+https://www.statmethods.net/interface/index.html
+
 https://www.r-bloggers.com/
+
+https://www.rdocumentation.org/
 
 https://stackoverflow.com/questions/tagged/r
 
@@ -104,7 +109,16 @@ is.na()
 
 * Due concetti utili a capire il funzionamento di R: vectorized operation e riciclo degli elementi
 
+#### per approfondire
+
+https://www.statmethods.net/r-tutorial/index.html
+
+http://adv-r.had.co.nz/Data-structures.html
+
+http://adv-r.had.co.nz/Subsetting.html
+
 ## Le potenzialità di R rispetto ad altre soluzioni
+
 
 * La possibilità di scrivere le proprie funzioni
 ```R
