@@ -14,17 +14,16 @@ Nella cartella [dati](dati) ci sono i materiali da caricare nel progetto in RStu
 
 Per caricare i due file in R è necessario scaricarli nella sotto-cartella dati del progetto RStudio (la sotto-cartella va creata) ed eseguire le seguenti istruzioni che si possono trovare anche nello script.
 ```R
-library(tidyverse)
-library(sf)
-
+require(tidyverse)
 pop_2014_2018 <- read_csv("dati/popolazione_residente_2014_2018.csv",
                           col_types = cols_only(ITTER107 = col_character(),
                                                 TIME = col_integer(),
                                                 Value = col_integer())) %>%
-      rename(codice_Istat = ITTER107,
-             anno = TIME,
-             popolazione = Value)
-             
+                          rename(codice_Istat = ITTER107,
+                                 anno = TIME,
+                                 popolazione = Value)
+
+library(sf)            
 comuni_2018_poligonali <- st_read("dati/Comuni_2018_poligonali.shp") %>% st_transform(crs = 32632)
 ```
 
