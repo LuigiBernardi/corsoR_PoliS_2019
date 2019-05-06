@@ -165,7 +165,7 @@ http://adv-r.had.co.nz/Functions.html
 http://adv-r.had.co.nz/Functionals.html
 
 
-# Pomeriggio – L’analisi dati con R illustrata attraverso un esempio pratico
+# Pomeriggio – L’analisi dati con R
 
 
 ## Importare e pulire i dati: pacchetto base e tidyverse
