@@ -4,7 +4,7 @@
 ## Introduzione all’ambiente R
 
 
-* Caratteristiche di R, vantaggi (e svantaggi) del suo utilizzo, per cosa è utile (e per cosa non è utile) utilizzarlo
+* Caratteristiche di R e vantaggi del suo utilizzo
 
 * La modularità dell’ambiente R: il pacchetto base e i pacchetti aggiuntivi
 ```R
