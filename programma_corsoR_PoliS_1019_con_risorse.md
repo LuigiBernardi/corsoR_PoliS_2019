@@ -30,7 +30,14 @@ help()
 ```
 
 #### Per approfondire
+
+https://www.r-project.org/
+
 https://www.rstudio.com/
+
+https://www.r-bloggers.com/
+
+https://stackoverflow.com/questions/tagged/r
 
 ## Le basi di R
 
@@ -83,23 +90,39 @@ tail ()
 subset()
 ```
 
-* Le variabili categoriali in R: factors.
-factor.
-levels.
-cut.
-* I missing values in R: NA.
-is.na.
-* Accenno a due concetti utili a capire il funzionamento di R: vectorized operation e riciclo degli elementi.
+* Le variabili categoriali in R: factors
+```R
+factor()
+levels()
+cut()
+```
 
-Accenno alle potenzialità di R rispetto ad altre soluzioni
-* Accenno alla possibilità di scrivere le proprie funzioni.
-function.
-* Accenno alla possibilità di usare gli strumenti di un linguaggio di programmazione: i for loop e le if statement.
-for.
-If, else e ifelse.
-* Il vantaggio di lavorare in un unico ambiente.
- 
-Pomeriggio – L’analisi dati con R illustrata attraverso un esempio pratico
+* I missing values in R: NA
+```R
+is.na()
+```
+
+* Due concetti utili a capire il funzionamento di R: vectorized operation e riciclo degli elementi
+
+## Le potenzialità di R rispetto ad altre soluzioni
+
+* La possibilità di scrivere le proprie funzioni
+```R
+function()
+```
+
+* La possibilità di usare gli strumenti di un linguaggio di programmazione: i for loop e le if statement
+```R
+for()
+if()
+else()
+ifelse()
+```
+
+* Il vantaggio di lavorare in un unico ambiente
+
+
+# Pomeriggio – L’analisi dati con R illustrata attraverso un esempio pratico
 
 Importare e pulire i dati: pacchetto base e tidyverse
 * Importare dati in RStudio attraverso l’interfaccia grafica, i comandi e il pacchetto haven di tidyverse (lettura di dataset SPSS, SAS, Stata).
