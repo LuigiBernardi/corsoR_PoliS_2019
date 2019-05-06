@@ -30,15 +30,23 @@ getwd()
 help()
 ```
 
-#### Per approfondire
+### Per approfondire
+
+* siti ufficiali dei progetti
 
 https://www.r-project.org/
 
 https://www.rstudio.com/
 
+* introduzione all'interfaccia
+
 https://www.statmethods.net/interface/index.html
 
+* news dal mondo R
+
 https://www.r-bloggers.com/
+
+* dove cercare aiuto
 
 https://www.rdocumentation.org/
 
@@ -111,17 +119,21 @@ is.na()
 
 * Due concetti utili a capire il funzionamento di R: vectorized operation e riciclo degli elementi
 
-#### per approfondire
+### Per approfondire
+
+* introduzioni all'uso di R
 
 https://www.statmethods.net/r-tutorial/index.html
-
-http://adv-r.had.co.nz/Data-structures.html
-
-http://adv-r.had.co.nz/Subsetting.html
 
 http://www.sthda.com/english/wiki/r-basics-quick-and-easy
 
 http://www.r-tutor.com/r-introduction
+
+* approfondimento su strutture dati e subsetting
+
+http://adv-r.had.co.nz/Data-structures.html
+
+http://adv-r.had.co.nz/Subsetting.html
 
 
 ## Le potenzialità di R rispetto ad altre soluzioni
