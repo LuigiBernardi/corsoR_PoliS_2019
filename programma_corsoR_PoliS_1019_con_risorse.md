@@ -4,7 +4,7 @@
 ## Introduzione all’ambiente R
 
 
-* Caratteristiche di R, vantaggi (e svantaggi) del suo utilizzo, per cosa è utile (e per cosa non è utile) utilizzarlo.
+* Caratteristiche di R, vantaggi (e svantaggi) del suo utilizzo, per cosa è utile (e per cosa non è utile) utilizzarlo
 
 * La modularità dell’ambiente R: il pacchetto base e i pacchetti aggiuntivi
 ```R
@@ -44,7 +44,9 @@ https://www.rdocumentation.org/
 
 https://stackoverflow.com/questions/tagged/r
 
+
 ## Le basi di R
+
 
 * La creazione di un oggetto
 ```R
@@ -117,6 +119,11 @@ http://adv-r.had.co.nz/Data-structures.html
 
 http://adv-r.had.co.nz/Subsetting.html
 
+http://www.sthda.com/english/wiki/r-basics-quick-and-easy
+
+http://www.r-tutor.com/r-introduction
+
+
 ## Le potenzialità di R rispetto ad altre soluzioni
 
 
@@ -138,33 +145,131 @@ ifelse()
 
 # Pomeriggio – L’analisi dati con R illustrata attraverso un esempio pratico
 
-Importare e pulire i dati: pacchetto base e tidyverse
-* Importare dati in RStudio attraverso l’interfaccia grafica, i comandi e il pacchetto haven di tidyverse (lettura di dataset SPSS, SAS, Stata).
-read_(csv/csv2/delim/…).
-read_(sas/sav/stata).
-* La prima valutazione dei dati importati.
-summary.
-quantile.
-table.
-* Riorganizzare un dataset con le funzioni base.
-subset.
-order.
-* Riorganizzazione un dataset con tidyverse.
-filter, spread, gather, select, rename, arrange, mutate, group_by e summarise.
-%>%.
-* Unire due dataset importati con tidyverse.
-left_join, right_join e inner_join.
-* Esortare dati da RStudio attraverso l’interfaccia grafica, i comandi e il pacchetto haven di tidyverse (esportazione di dataset SPSS, SAS, Stata etc).
-write_(csv/csv2/delim/…).
-write_(sas/sav/stata).
 
-Introduzione all’analisi dati con R attraverso alcuni esempi pratici
-* Le tabelle in R: creazione con i comandi base, creazione con tidyverse ed esportazione in Excel con write.xlsx.
-table, prop_table e addmargins.
-write.xlsx.
-* I grafici in R: pacchetto base e ggplot2.
-plot, boxplot e hist.
-ggplot, geom_point, geom_line, geom_boxplot, geom_hist, facet_grid e ggsave.
-* Le mappe in R: pacchetti sf e tmap.
-read_sf.
-tmap_mode, tm_shape, tm_polygon, tm_facets e tmap_save.
+## Importare e pulire i dati: pacchetto base e tidyverse
+
+
+* Importare dati in RStudio attraverso l’interfaccia grafica, i comandi e il pacchetto haven di tidyverse (lettura di dataset SPSS, SAS, Stata)
+```R
+read_csv()
+read_csv2()
+# read_(delim/fwf/…)
+# read_(sas/sav/stata)
+```
+
+* La prima valutazione dei dati importati
+```R
+summary()
+quantile()
+table()
+```
+
+* Riorganizzare un dataset con le funzioni base
+```R
+subset()
+order()
+```
+
+* Riorganizzazione un dataset con tidyverse
+```R
+%>%
+filter()
+spread()
+gather()
+select()
+rename()
+arrange()
+mutate()
+group_by()
+summarise()
+```
+
+* Unire due dataset importati con tidyverse
+```R
+left_join()
+right_join()
+inner_join()
+```
+
+* Esportare dati da RStudio attraverso l’interfaccia grafica, i comandi e il pacchetto haven di tidyverse (esportazione di dataset SPSS, SAS, Stata etc)
+```R
+write_csv()
+write_csv2()
+# write_delim()
+# write_(sas/sav/stata)
+```
+
+
+## Introduzione all’analisi dati con R attraverso alcuni esempi pratici
+
+* Le tabelle in R: creazione con i comandi base, creazione con tidyverse ed esportazione in Excel con write.xlsx
+```R
+table()
+prop_table()
+addmargins()
+write.xlsx()
+```
+
+* I grafici in R: pacchetto base e ggplot2
+```R
+plot()
+boxplot()
+hist()
+ggplot()
+geom_point()
+geom_line()
+geom_boxplot()
+geom_hist()
+facet_grid()
+ggsave()
+```
+
+* Le mappe in R: pacchetti sf e tmap
+```R
+read_sf()
+tmap_mode()
+tm_shape()
+tm_polygon()
+tm_facets()
+tmap_save()
+```
+
+#### per approfondire
+
+* analisi di base
+
+https://www.statmethods.net/stats/index.html
+
+http://www.r-tutor.com/elementary-statistics/qualitative-data
+
+http://www.r-tutor.com/elementary-statistics/quantitative-data
+
+https://r4ds.had.co.nz/
+
+* grafici
+
+https://www.r-graph-gallery.com/
+
+https://ggplot2.tidyverse.org/index.html
+
+https://www.statmethods.net/graphs/index.html
+
+https://www.statmethods.net/advgraphs/index.html
+
+http://www.cookbook-r.com/Graphs/
+
+http://www.sthda.com/english/wiki/data-visualization
+
+https://github.com/dreamRs/esquisse
+
+* mappe
+
+https://github.com/r-spatial/sf
+
+https://geocompr.robinlovelace.net/
+
+https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html
+
+
+
+
