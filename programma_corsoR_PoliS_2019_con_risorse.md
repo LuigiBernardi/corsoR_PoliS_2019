@@ -181,6 +181,7 @@ read_csv2()
 
 * La prima valutazione dei dati importati
 ```R
+View()
 summary()
 quantile()
 table()
@@ -190,6 +191,7 @@ table()
 ```R
 subset()
 order()
+with()
 ```
 
 * Riorganizzazione un dataset con tidyverse
@@ -221,8 +223,23 @@ write_csv2()
 # write_(sas/sav/stata)
 ```
 
+* R base
+
+https://www.statmethods.net/input/index.html
+
+https://www.statmethods.net/management/index.html
+
+* pacchetto tidyverse
+
+https://www.tidyverse.org/
+
+https://www.rstudio.com/resources/cheatsheets/
+
+https://r4ds.had.co.nz/
+
 
 ## Introduzione all’analisi dati con R attraverso alcuni esempi pratici
+
 
 * Le tabelle in R: creazione con i comandi base, creazione con tidyverse ed esportazione in Excel con write.xlsx
 ```R
