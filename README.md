@@ -1,6 +1,5 @@
 ## Materiali giornata di formazione su R - PoliS Lombardia - 8 Maggio 2019
 
-### Cartella principale
 Materiali da copiare nella cartella principale del progetto in RStudio.
 
 * [programma_corsoR_PoliS_2019_con_risorse.md](programma_corsoR_PoliS_2019_con_risorse.md) - Elenco degli argomenti trattati e delle relative funzioni R. Link alle risorse per l'approfondimento.
