@@ -4,7 +4,7 @@
 ## Introduzione all’ambiente R
 
 
-* Caratteristiche di R e vantaggi del suo utilizzo
+* Caratteristiche di R
 
 * La modularità dell’ambiente R: il pacchetto base e i pacchetti aggiuntivi
 ```R
@@ -12,7 +12,7 @@ install.packages()
 library()
 ```
 
-* Introduzione a RStudio: le componenti dell’ambiente di lavoro (in particolare script, console)
+* Introduzione a RStudio: le componenti dell’ambiente di lavoro
 
 * La creazione di un progetto in RStudio e la sua organizzazione
 
@@ -139,12 +139,12 @@ http://adv-r.had.co.nz/Subsetting.html
 ## Le potenzialità di R rispetto ad altre soluzioni
 
 
-* La possibilità di scrivere le proprie funzioni
+* Scrivere le proprie funzioni
 ```R
 function()
 ```
 
-* La possibilità di usare gli strumenti di un linguaggio di programmazione: i for loop e le if statement
+* Sfruttare gli strumenti di un linguaggio di programmazione
 ```R
 for()
 if()
@@ -152,7 +152,7 @@ else()
 ifelse()
 ```
 
-* Il vantaggio di lavorare in un unico ambiente
+* Lavorare in un unico ambiente
 
 ### Per approfondire
 
@@ -219,7 +219,7 @@ inner_join()
 ```R
 write_csv()
 write_csv2()
-# write_delim()
+write_delim()
 # write_(sas/sav/stata)
 ```
 
